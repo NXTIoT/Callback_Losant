@@ -6,7 +6,7 @@ Callback_Losant
 
 En este repositorio se muestra el proceso para realizar el callback hacia Losant, adicionalmente se mostrará la configuración necesaria para realizar el downlink utilizando Losant.
 
-https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los1.png
+Primero necesitamos crear una cuenta en Losant en el siguiente [Link](https://accounts.losant.com/signin?)
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los1.png?raw=true)
 
