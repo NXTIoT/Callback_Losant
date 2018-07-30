@@ -133,9 +133,17 @@ Ahora, mandamos un mensaje con nuestro dispositivo y en la columna derecha damos
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los23.png?raw=true)
 
-una vez que ya recibimos los menssjes en Losant, agregamos un nodo 
+una vez que ya recibimos los menssjes en Losant, agregamos un nodo de "Function" y lo cenectamos entre los nodos de "Webhook" y "Debug".
+Dentro del nodo escribimos lo siguiente:
+
+		var buf = Buffer.from(payload.data.body.data, 'hex');
+		payload.data.body.temp = buf.readFloatLE();
+		
+Con esta función decodificamos el dato que llega en hexadecimal en formato Float32 Little-Endian y lo transformamos a su valor decimal. Damos click en "Save & Deploy"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los24.png?raw=true)
+
+Nuevamente enviamos un mensaje con nuestro dispositivo y dentro de las variables en el recuadro de debug, nos aparecerá la nueva variable que definimos dentro de nuestra funcion
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los25.png?raw=true)
 
