@@ -15,7 +15,7 @@ Escribimos un nombre para nuestra aplicación en Losant y una descripción. Damo
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los2.png?raw=true)
 
-después de crear nuestra aplicación, nos vamos a la pestaña de "Webhooks -> AddWebhook"
+después de crear nuestra aplicación, nos vamos a la pestaña de "Webhooks -> Add Webhook"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los3.png?raw=true)
 
@@ -28,21 +28,23 @@ hacemos click en "Create Webhook"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los4.png?raw=true)
 
-una vez creado nuestro webhook, copiamos el link que nos aparecerá, ya que lo utilizaremos para configurar nuestro callback en el backend de Sigfox.
-
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los5.png?raw=true)
 
-regresamos a nuestra cuenta del backend de Sigfox. Buscamos nuestro dispositivo y damos click en el nombre que aparece debajo de la columna "Device Type"
+una vez creado nuestro webhook, copiamos el link que nos aparecerá, ya que lo utilizaremos para configurar nuestro callback en el backend de Sigfox.
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los6.png?raw=true)
 
-En la columna izquierda seleccionamos "Callbacks -> New"
+regresamos a nuestra cuenta del backend de Sigfox. Buscamos nuestro dispositivo y damos click en el nombre que aparece debajo de la columna "Device Type"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los7.png?raw=true)
 
-Seleccionamos "Custom callback"
+En la columna izquierda seleccionamos "Callbacks -> New"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los8.png?raw=true)
+
+Seleccionamos "Custom callback"
+
+![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los9.png?raw=true)
 
 Configuramos nuestro callback de acuerdo a los siguiente:
 
@@ -68,8 +70,6 @@ y en el body de nuestro json ponemos las variables que deseemos enviar. En este 
   			"rssi" : "{rssi}",
  			"seqNumber" : "{seqNumber}"
 		}
-
-![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los9.png?raw=true)
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los10.png?raw=true)
 
