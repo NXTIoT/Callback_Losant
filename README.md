@@ -97,7 +97,11 @@ damos click en "Create Device"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los15.png?raw=true)
 
+a continuación nos dirigimos a la pestaña "Workflows -> Create Workflow"
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los16.png?raw=true)
+
+seleccionamos "Create Cloud Workflow"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los17.png?raw=true)
 
