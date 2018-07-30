@@ -105,17 +105,35 @@ seleccionamos "Create Cloud Workflow"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los17.png?raw=true)
 
+escribimos un nombre y hacemos click en "Create Workflow"
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los18.png?raw=true)
+
+nos aparecerá nuestro panel del workflow
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los19.png?raw=true)
 
+en la columna izquierda, seleccionamos el nodo "Webhook" y verificamos en los parametros que el nombre del webhook sea el nombre que le dimos a nuestro webhook
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los20.png?raw=true)
+
+Seleccionamos y arrastramos el nodo "debug" 
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los21.png?raw=true)
 
+Seleccionamos y arrastramos el nodo "Webhook reply". Unimos los nodos y seleccionamos el nodo "Webhook reply". En la ventana derecha de los parametros del nodo, escribimos lo siguiente
+-	Response Code Template: 200
+-	Reply Body: OK
+
+Damos click en "Save & Deploy" para guardar todas las configuraciones hechas
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los22.png?raw=true)
 
+Ahora, mandamos un mensaje con nuestro dispositivo y en la columna derecha damos click en "Debug". Cuando se reciba un mensaje, nos desplegará la información que configuramos en el callback 
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los23.png?raw=true)
+
+una vez que ya recibimos los menssjes en Losant, agregamos un nodo 
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los24.png?raw=true)
 
