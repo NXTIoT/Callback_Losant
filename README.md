@@ -73,11 +73,25 @@ y en el body de nuestro json ponemos las variables que deseemos enviar. En este 
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los10.png?raw=true)
 
+Damos click en "OK" y ya tendremos configurado nuestro callback
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los11.png?raw=true)
+
+Regresamos a nuestra cuenta en Losant. Vamos a "Applications -> Devices -> Add device" 
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los12.png?raw=true)
 
+damos click en "Create Blank Device"
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los13.png?raw=true)
+
+Escribimos un nombre a nuestro dispositivo. Seleccionamos "Standalone" y definimos los siguientes atributos
+
+		- Number	temp
+		-GPS String	location
+		-Number		rssi
+
+damos click en "Create Device"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los14.png?raw=true)
 
