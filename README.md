@@ -6,11 +6,16 @@ Callback_Losant
 
 En este repositorio se muestra el proceso para realizar el callback hacia Losant, adicionalmente se mostrará la configuración necesaria para realizar el downlink utilizando Losant.
 
-Primero necesitamos crear una cuenta en Losant en el siguiente [Link](https://accounts.losant.com/signin?)
+Primero necesitamos crear una cuenta en Losant en el siguiente [Link](https://accounts.losant.com/signin?) . Una vez creada nuestra cuenta, accedemos a ella y veremos el panel de "Applications".
+En la pestaña de "Applications", en la esquina superior derecha, damos click en "New Application" 
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los1.png?raw=true)
 
+Escribimos un nombre para nuestra aplicación en Losant y una descripción. Damos click en "Create Application"
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los2.png?raw=true)
+
+despues de crear nuestra aplicacion, nos vamos a la pestaña de "Webhooks -> AddWebhook"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los3.png?raw=true)
 
