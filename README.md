@@ -147,11 +147,25 @@ Nuevamente enviamos un mensaje con nuestro dispositivo y dentro de las variables
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los25.png?raw=true)
 
+Seleccionamos un nodo "Device State" y definimos las variables de nuestro interes. En este caso se definirán las siguientes:
+
+		-location	{{data.body.lat}},{{data.body.lng}}
+		-rssi		{{data.body.rssi}}
+		-temp		{{data.body.temp}}
+
+una vez finalizado, damos click en "Save & deploy"
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los26.png?raw=true)
+
+enviamos un mensaje con nuestro dispositivo y nos dirigimos a la pestaña de "Devices -> Debug" y veremos las tres variables que definimos en nuestro nodo anterior
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los27.png?raw=true)
 
+Una vez que ya tenemos nuestras variables de interes definidas, crearemos el dashboard. Vamos a "Dashboard -> Create Dashboard"
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los28.png?raw=true)
+
+Le damos un nombre a nuestro dashboard y lo creamos
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los29.png?raw=true)
 
