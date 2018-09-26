@@ -169,11 +169,24 @@ Le damos un nombre a nuestro dashboard y lo creamos
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los29.png?raw=true)
 
+En este caso se mostrará la temperatura en una grafica, por lo que se seleccionara un bloque de grafica
+
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los30.png?raw=true)
+
+Definimos nuestra variable "Temperatura" y seleccionamos nuestra aplicacion creada anteriormente. 
+
+	-Seleccionamos nuestro dispositivo creado: "devkit_40F78A"
+	-Seleccionamos nuestro atributo: "temp"
+	-Ponemos una etiqueta: "Temperatura"
+	
+y damos click en "Add Block"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los31.png?raw=true)
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los32.png?raw=true)
+
+enseguida nos aparecera nuestra grafica con los datos que se tengan hasta el momento de crear nuestras variables. Si queremos agregar mas bloques, damos click en la
+esquina superior derecha y seleccionamos "Add block"
 
 ![dev1](https://github.com/NXTIoT/Callback_Losant/blob/master/imagenes/los33.png?raw=true)
 
